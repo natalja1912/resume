@@ -10,3 +10,17 @@
     position: relative;
 }
 
+@media screen and (max-width: 1000px) {
+    .category__heading{
+        font-size: 20px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .category__heading{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+

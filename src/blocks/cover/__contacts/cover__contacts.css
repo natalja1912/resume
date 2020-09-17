@@ -5,3 +5,15 @@
     display: flex;
 }
 
+@media screen and (max-width: 600px) {
+    .cover__contacts{
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cover__contacts{
+        width: 20%;
+    }
+}
+

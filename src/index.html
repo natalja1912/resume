@@ -7,20 +7,20 @@
     <title>Natalia Pavlova</title>
 </head>
 
-<body>
+<body class="body">
     <div class="page">
-        <header class="header section">
-            <div class="header__logo"></div>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li><a href='#cover'>О себе</a></li>
-                    <li><a href='#experience'>Опыт работы</a></li>
-                    <li><a href='#education'>Образование</a></li>
-                    <li><a href='#skills'>Навыки</a></li>
-                    <li><a href='#portfolio'>Портфолио</a></li>
-                    <li><a href='#contacts'>Контакты</a></li>
-                </ul>
-            </nav>
+        <header class="header">
+                <div class="header__logo"></div>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li><a href='#cover'>О себе</a></li>
+                        <li><a href='#experience'>Опыт работы</a></li>
+                        <li><a href='#education'>Образование</a></li>
+                        <li><a href='#skills'>Навыки</a></li>
+                        <li><a href='#portfolio'>Портфолио</a></li>
+                        <li><a href='#contacts'>Контакты</a></li>
+                    </ul>
+                </nav>
         </header>
         <main class="content">
             <section class="cover section" id="cover">
@@ -110,14 +110,16 @@
                     </div>
                 </div>
             </section>
-            <section class="category section" id="portfolio">
+            <section class="category portfolio section" id="portfolio">
+                <div>
+                <h2 class="category__heading">Портфолио</h2>
                 <div class="controls portfolio__controls">
-                    <h2 class="category__heading">Портфолио</h2>
                     <button class="portfolio__control-button" type="button" data-filter=".all">Все проекты</button>
                     <button class="portfolio__control-button" type="button" data-filter=".layout">Адаптивная
                         верстка</button>
                     <button class="portfolio__control-button" type="button" data-filter=".js">Javascript</button>
                 </div>
+            </div>
                 <div class="container portfolio__container">
                     <a class="mix layout js all portfolio__item" href="https://natalja1912.github.io/russian-travel/"
                         target='_blank'>
@@ -145,19 +147,27 @@
                     </a>
                 </div>
             </section>
-            <section class="category category_type_contacts section" id="contacts">
+            <section class="category section" id="contacts">
                 <h2 class="category__heading">Контакты</h2>
-                <div class="category__container">
-                    <h3 class="category__title category__title_type_skills">Почта</h3>
-                    <ul class="category__text">
-                        <li>natalja1912@yandex.ru</li>
-                    </ul>
-                </div>
-                <div class="category__container">
-                    <h3 class="category__title category__title_type_skills">Telegram</h3>
-                    <ul class="category__text">
-                        <li>@natalja1912</li>
-                    </ul>
+                <div class="category__container category__container_type_skills">
+                    <div class="category__skills">
+                        <h3 class="category__title category__title_type_skills">Почта</h3>
+                        <ul class="category__text">
+                            <li>natalja1912@yandex.ru</li>
+                        </ul>
+                    </div>
+                    <div class="category__skills">
+                        <h3 class="category__title category__title_type_skills">Telegram</h3>
+                        <ul class="category__text">
+                            <li>@natalja1912</li>
+                        </ul>
+                    </div>
+                    <div class="category__skills">
+                        <h3 class="category__title category__title_type_skills">Skype</h3>
+                        <ul class="category__text">
+                            <li>natalja1912_1</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </main>

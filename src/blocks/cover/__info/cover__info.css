@@ -4,3 +4,16 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .cover__info:last-of-type{
+        margin-bottom: 40px;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 545px) {
+    .cover__info:last-of-type{
+        width: 100%;
+    }
+}

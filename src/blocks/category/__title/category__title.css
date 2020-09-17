@@ -10,3 +10,9 @@
 .category__title:first-of-type{
     margin-top: 0;
 }
+
+@media screen and (max-width: 1000px) {
+    .category__title{
+        font-size: 18px;
+    }
+}

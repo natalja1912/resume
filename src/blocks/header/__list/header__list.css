@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: normal;
     line-height: 1.5;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     cursor: pointer;
 }
 
 .header__list a{
-    display: inline-block;
-    height: 100%;
     padding-right: 20px;
     text-decoration: none;
     color: black;
@@ -18,4 +20,37 @@
 .header__list a:hover{
     color: lightskyblue;
     transition: all 0.5s;
+}
+
+
+@media screen and (max-width: 740px) {
+    .header__list a{
+        width: 50px;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-right: 1px solid slategray;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__list{
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+        line-height: 2;
+    }
+
+    .header__list a{
+        color: slategray;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__list{
+        font-size: 14px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
 }

@@ -1,4 +1,3 @@
-@import url(./_type/category_type_contacts.css);
 @import url(./__heading/category__heading.css);
 @import url(./__heading/_type/category__heading_type_experience.css);
 @import url(./__heading/_type/category__heading_type_education.css);
@@ -10,6 +9,7 @@
 @import url(./__subtitle/category__subtitle.css);
 @import url(./__description/category__description.css);
 @import url(./__text/category__text.css);
+@import url(./__skills/category__skills.css);
 
 
 .category{
@@ -18,4 +18,10 @@
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .category{
+        flex-direction: column;
+    }
 }

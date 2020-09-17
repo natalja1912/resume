@@ -22,3 +22,17 @@
     transform: scale(1.1);
     transition: all 0.7s;
 }
+
+@media screen and (max-width: 545px) {
+    .cover__link{
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .cover__link{
+        position: static;
+    }
+}

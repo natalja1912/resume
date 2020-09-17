@@ -2,3 +2,16 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 600px) {
+    .portfolio__controls{
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .portfolio__controls{
+        flex-direction: column;
+    }
+}

@@ -4,4 +4,20 @@
     height: 50px;
     background: url('../../../images/web-development.svg') no-repeat;
     background-size: 50px 50px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 740px) {
+    .header__logo{
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__logo{
+        display: none;
+    }
 }

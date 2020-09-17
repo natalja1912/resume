@@ -32,3 +32,33 @@
     outline: none;
     background-color: #efefef;
 }
+
+@media screen and (max-width: 600px) {
+    .portfolio__control-button{
+        margin-top: 0;
+        height: 30px;
+    }
+    .portfolio__control-button:first-of-type{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__control-button:first-of-type{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__control-button{
+        padding-left: 15px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .portfolio__control-button{
+        padding-left: 25px;
+        margin-left: 10px;
+    }
+}

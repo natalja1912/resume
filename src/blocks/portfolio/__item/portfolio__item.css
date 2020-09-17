@@ -9,3 +9,9 @@
     text-decoration: none;
     overflow: hidden;
 }
+
+@media screen and (max-width: 600px) {
+    .portfolio__item{
+        width: 100%;  
+    }
+}

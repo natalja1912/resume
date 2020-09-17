@@ -2,3 +2,21 @@
     margin: 0;
     padding-right: 150px;
 }
+
+@media screen and (max-width: 1250px) {
+    .cover__text{
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cover__text{
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cover__text{
+        padding-right: 0;
+    }
+}
