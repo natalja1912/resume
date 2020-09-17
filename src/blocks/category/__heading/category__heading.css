@@ -6,13 +6,13 @@
     padding-left: 0;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 35px;
     position: relative;
 }
 
 @media screen and (max-width: 1000px) {
     .category__heading{
-        font-size: 20px;
+        font-size: 25px;
         width: 30%;
     }
 }

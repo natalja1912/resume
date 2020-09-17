@@ -1,6 +1,7 @@
 .cover__text{
     margin: 0;
     padding-right: 150px;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 1250px) {
@@ -12,6 +13,7 @@
 @media screen and (max-width: 800px) {
     .cover__text{
         padding-right: 50px;
+        font-size: 14px;
     }
 }
 

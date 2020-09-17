@@ -4,5 +4,11 @@
     padding: 0;
     margin-bottom: 40px;
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .category__text{
+        font-size: 14px;
+    }
 }
