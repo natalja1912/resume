@@ -1,0 +1,7 @@
+.header__logo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('../../../images/web-development.svg') no-repeat;
+    background-size: 50px 50px;
+}

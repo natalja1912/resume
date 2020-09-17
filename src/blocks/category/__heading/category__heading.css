@@ -1,0 +1,12 @@
+.category__heading{
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    position: relative;
+}
+

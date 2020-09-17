@@ -1,0 +1,14 @@
+.category__heading_type_experience{
+    padding-left: 55px;
+}
+
+.category__heading_type_experience::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: url('../../../../images/goal.svg') no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,11 @@
+@import url(./__container/portfolio__container.css);
+@import url(./__item/portfolio__item.css);
+@import url(./__image/portfolio__image.css);
+@import url(./__title/portfolio__title.css);
+@import url(./__controls/portfolio__controls.css);
+@import url(./__control-button/portfolio__control-button.css);
+
+.portfolio{
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,21 @@
+.header__list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    line-height: 1.5;
+    display: flex;
+    cursor: pointer;
+}
+
+.header__list a{
+    display: inline-block;
+    height: 100%;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__list a:hover{
+    color: lightskyblue;
+    transition: all 0.5s;
+}

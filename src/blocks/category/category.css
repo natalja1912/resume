@@ -1,0 +1,21 @@
+@import url(./_type/category_type_contacts.css);
+@import url(./__heading/category__heading.css);
+@import url(./__heading/_type/category__heading_type_experience.css);
+@import url(./__heading/_type/category__heading_type_education.css);
+@import url(./__heading/_type/category__heading_type_skills.css);
+@import url(./__container/category__container.css);
+@import url(./__container/_type/category__container_type_skills.css);
+@import url(./__title/category__title.css);
+@import url(./__title/_type/category__title_type_skills.css);
+@import url(./__subtitle/category__subtitle.css);
+@import url(./__description/category__description.css);
+@import url(./__text/category__text.css);
+
+
+.category{
+    box-sizing: border-box;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}

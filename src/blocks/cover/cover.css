@@ -1,0 +1,20 @@
+@import url(./__heading/cover__heading.css);
+@import url(./__subheading/cover__subheading.css);
+@import url(./__text/cover__text.css);
+@import url(./__info/cover__info.css);
+@import url(./__link/cover__link.css);
+@import url(./__contacts/cover__contacts.css);
+@import url(./__contacts-heading/cover__contacts-heading.css);
+@import url(./__contacts-text/cover__contacts-text.css);
+@import url(./__image/cover__image.css);
+
+
+.cover{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

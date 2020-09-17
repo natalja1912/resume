@@ -1,0 +1,10 @@
+.portfolio__title{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+}
