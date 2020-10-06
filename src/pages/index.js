@@ -1,5 +1,6 @@
 import './index.css';
 
+//эффекты добавления тени и удаление логотипа в секции header при прокрутке экрана 
 window.addEventListener('scroll', () => {
     const header = document.querySelector('.header');
     const logo = document.querySelector('.header__logo');
@@ -20,6 +21,8 @@ window.addEventListener('scroll', () => {
     }
 })
 
+
+//эффект сортировки элементов в разделе Портфолио
 const mixitup = require('mixitup');
 const container = document.querySelector('.container');
 mixitup(container, {

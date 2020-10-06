@@ -1,0 +1,11 @@
+.cover__contacts-link{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.cover__contacts-link:hover{
+    opacity: 0.7;
+    transition: all 0.6s ease-in;
+}
+

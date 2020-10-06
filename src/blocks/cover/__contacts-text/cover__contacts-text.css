@@ -1,11 +1,5 @@
 .cover__contacts-text{
     margin: 0;
     padding: 0;
-    padding-left: 50px;
 }
 
-@media screen and (max-width: 600px) {
-    .cover__contacts-text{
-        padding-left: 20px;
-    }
-}

@@ -1,0 +1,9 @@
+.category__link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.category__link:hover{
+    opacity: 0.7;
+    transition: all 0.6s ease-in;
+}
