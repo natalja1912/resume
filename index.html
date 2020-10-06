@@ -6,20 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natalia Pavlova</title>
 <link href="main.css" rel="stylesheet"></head>
+
 <body class="body">
     <div class="page">
         <header class="header">
-                <div class="header__logo"></div>
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li><a href='#cover'>О себе</a></li>
-                        <li><a href='#experience'>Опыт работы</a></li>
-                        <li><a href='#education'>Образование</a></li>
-                        <li><a href='#skills'>Навыки</a></li>
-                        <li><a href='#portfolio'>Портфолио</a></li>
-                        <li><a href='#contacts'>Контакты</a></li>
-                    </ul>
-                </nav>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href='#cover'>О себе</a></li>
+                    <li><a href='#experience'>Опыт работы</a></li>
+                    <li><a href='#education'>Образование</a></li>
+                    <li><a href='#skills'>Навыки</a></li>
+                    <li><a href='#portfolio'>Портфолио</a></li>
+                    <li><a href='#contacts'>Контакты</a></li>
+                </ul>
+            </nav>
         </header>
         <main class="content">
             <section class="cover section" id="cover">
@@ -33,12 +33,18 @@
                         люблю учиться и
                         узнавать что-то новое.</p>
                     <div class="cover__contacts">
-                        <p class="cover__contacts-heading">Почта</p>
+                        <div class="cover__contacts-heading cover__contacts-heading_email"></div>
                         <p class="cover__contacts-text">natalja1912@yandex.ru</p>
                     </div>
                     <div class="cover__contacts">
-                        <p class="cover__contacts-heading">Telegram</p>
+                        <div class="cover__contacts-heading cover__contacts-heading_telegram"></div>
                         <p class="cover__contacts-text">@natalja1912</p>
+                    </div>
+                    <div class="cover__contacts">
+                        <div class="cover__contacts-heading cover__contacts-heading_github"></div>
+                        <p class="cover__contacts-text"><a class="cover__contacts-link"
+                                href='https://github.com/natalja1912?tab=repositories' target='_blank'>natalja1912</a>
+                        </p>
                     </div>
                     <a class="cover__link" href="https://hh.ru/resume/72db07daff083a02210039ed1f616935526866"
                         target='_blank'>Резюме</a>
@@ -111,14 +117,15 @@
             </section>
             <section class="category portfolio section" id="portfolio">
                 <div>
-                <h2 class="category__heading">Портфолио</h2>
-                <div class="controls portfolio__controls">
-                    <button class="portfolio__control-button" type="button" data-filter=".all">Все проекты</button>
-                    <button class="portfolio__control-button" type="button" data-filter=".layout">Адаптивная
-                        верстка</button>
-                    <button class="portfolio__control-button" type="button" data-filter=".js">Javascript</button>
+                    <h2 class="category__heading">Портфолио</h2>
+                    <div class="controls portfolio__controls">
+                        <button class="portfolio__control-button" type="button" data-filter=".all">Все проекты</button>
+                        <button class="portfolio__control-button" type="button" data-filter=".layout">Адаптивная
+                            верстка</button>
+                        <button class="portfolio__control-button" type="button" data-filter=".js">Javascript</button>
+                        <button class="portfolio__control-button" type="button" data-filter=".react">React</button>
+                    </div>
                 </div>
-            </div>
                 <div class="container portfolio__container">
                     <a class="mix layout js all portfolio__item" href="https://natalja1912.github.io/russian-travel/"
                         target='_blank'>
@@ -144,6 +151,11 @@
                         <img class="portfolio__image" src='5d8bf53df129ddf94f54b5a2740d83a7.png'>
                         <p class="portfolio__title">Страница магазина для животных</p>
                     </a>
+                    <a class="mix layout react all portfolio__item" href="https://natalja1912.github.io/todolist/"
+                        target='_blank'>
+                        <img class="portfolio__image" src='3a804588ee47b61e9bc6e99b9fbe3ac7.png'>
+                        <p class="portfolio__title">Приложение для управления списком дел</p>
+                    </a>
                 </div>
             </section>
             <section class="category section" id="contacts">
@@ -162,9 +174,10 @@
                         </ul>
                     </div>
                     <div class="category__skills">
-                        <h3 class="category__title category__title_type_skills">Skype</h3>
+                        <h3 class="category__title category__title_type_skills">Github</h3>
                         <ul class="category__text">
-                            <li>natalja1912_1</li>
+                            <li><a class="category__link" href='https://github.com/natalja1912?tab=repositories'
+                                    target='_blank'>natalja1912</a></li>
                         </ul>
                     </div>
                 </div>
@@ -172,6 +185,9 @@
         </main>
         <footer class="footer">
             <p class="footer__author">&copy; 2020. Natalia Pavlova</p>
+            <div>Icons made by <a class="footer__link" href="https://www.flaticon.com/authors/freepik"
+                    title="Freepik">Freepik</a> from <a class="footer__link" href="https://www.flaticon.com/"
+                    title="Flaticon">www.flaticon.com</a></div>
         </footer>
     </div>
 <script src="main.js"></script></body>
